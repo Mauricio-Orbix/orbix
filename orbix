@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Criptomoeda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+        .container {
+            padding: 50px;
+        }
+        button {
+            background-color: #ff9800;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo à Minha Criptomoeda</h1>
+        <p>Invista no futuro com a nossa nova moeda digital!</p>
+        <button onclick="comprarCripto()">Comprar Agora</button>
+    </div>
+
+    <script>
+        function comprarCripto() {
+            alert("Em breve: Integração com MetaMask!");
+        }
+    </script>
+</body>
+</html>
